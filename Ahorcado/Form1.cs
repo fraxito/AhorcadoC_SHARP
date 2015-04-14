@@ -30,7 +30,7 @@ namespace Ahorcado
 
             String letra = miBoton.Text;
             letra = letra.ToUpper();
-
+            pictureBox1.Image = Properties.Resources.ahorcado_fin;
             if (palabraOculta.Contains(letra)){
                 label1.Text = letra;
             }
